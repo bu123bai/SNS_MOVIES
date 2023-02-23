@@ -229,7 +229,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hey {message.from_user.mention}, You are successfully verified !\nNow you have unlimited access for all movies till today midnight.</b>",
+                text=f"<b>Hey {message.from_user.mention}, You are successfully verified ! Now you have unlimited access for all movies till today midnight.</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -248,7 +248,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>Hey, You are not verified !\nKindly verify yourself to get unlimited access !</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -297,10 +297,10 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
-            InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
+            InlineKeyboardButton("💠 𝗖𝗹𝗶𝗰𝗸 𝗧𝗼 𝗩𝗲𝗿𝗶𝗳𝘆 💠", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b>Hey, You are not verified !\nKindly verify yourself to get unlimited access !</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
