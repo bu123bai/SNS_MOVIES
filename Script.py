@@ -200,10 +200,11 @@ Nᴀᴍᴇ - {}"""
  🇮🇳 𝐓𝐄𝐀𝐌 𝐒𝐍𝐒 : <a href="https://t.me/ABOUT_SNS">Tᴏᴜᴄʜ</a>
 ╰── • ◆ • ──╯
 
-====== • ✠ • ======
-▫️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : @MOVIESNSERIESSNS
-▫️ 𝙼𝙰𝙸𝙽 𝙶𝚁𝙾𝚄𝙿 : @Movies_Group_SNS
-====== • ✠ • ======</b>"""
+======= • ✠ • =======
+▫️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 : @SNSxTG
+▫️ 𝙼𝙰𝙸𝙽 𝙶𝚁𝙾𝚄𝙿 : 
+   @Movies_Group_SNS
+======= • ✠ • =======</b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
