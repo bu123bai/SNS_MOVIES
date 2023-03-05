@@ -101,13 +101,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         buttons = [
             [
                 InlineKeyboardButton("🎗 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 🎗", url=invite_link)
-            ],
-            [
-                InlineKeyboardButton("㋡ Wʜʏ I'ᴍ Jᴏɪɴɪɴɢ", "")
-            ],
-            [
-                InlineKeyboardButton("📥 Mᴇ Jᴏɪɴᴇᴅ 📥", "")
-            ]
+            ] 
         ]
         
         if file_id is False:
