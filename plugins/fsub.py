@@ -96,7 +96,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ **"Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ"** ʙᴜᴛᴛᴏɴ . Tʜᴇɴ **Cᴏᴍᴇ Bᴀᴄᴋ** Tᴏ Tʜᴇ Gʀᴏᴜᴘ Aɴᴅ **Sᴇʟᴇᴄᴛ** Aɢᴀɪɴ Yᴏᴜʀ Fɪʟᴇ🎉🥳"""
+        text="""Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ **"Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ"** ʙᴜᴛᴛᴏɴ . Tʜᴇɴ **Cᴏᴍᴇ Bᴀᴄᴋ** Tᴏ Tʜᴇ Gʀᴏᴜᴘ Aɴᴅ **Sᴇʟᴇᴄᴛ Aɢᴀɪɴ** Yᴏᴜʀ Fɪʟᴇ 🎉🥳"""
 
         buttons = [
             [
