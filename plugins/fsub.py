@@ -96,12 +96,15 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ **"Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ"** ʙᴜᴛᴛᴏɴ . Tʜᴇɴ **Cᴏᴍᴇ Bᴀᴄᴋ** Tᴏ Tʜᴇ Gʀᴏᴜᴘ Aɴᴅ **Sᴇʟᴇᴄᴛ Aɢᴀɪɴ** Yᴏᴜʀ Fɪʟᴇ 🎉🥳"""
+        text="""**Please Join My Updates Channel to use this Bot!**"""
 
         buttons = [
             [
-                InlineKeyboardButton("🎀 Rᴇǫᴜᴇꜱᴛ Tᴏ Jᴏɪɴ Cʜᴀɴɴᴇʟ 🎀", url=invite_link)
-            ] 
+                InlineKeyboardButton("📢 Request to Join Channel 📢", url=invite_link)
+            ],
+            [
+                InlineKeyboardButton(" 🔄 Try Again 🔄 ", callback_data=f"{mode}#{file_id}")
+            ]
         ]
         
         if file_id is False:
